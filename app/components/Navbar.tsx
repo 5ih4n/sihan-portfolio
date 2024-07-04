@@ -12,7 +12,7 @@ export const Navbar = () => {
         </Link>
         <nav className="hidden lg:flex space-x-6 ml-6">
           <Link href="#" className="text-base font-medium transition group duration-300" prefetch={false}>
-            Hem 
+            Projekt 
             <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-current"></span>
           </Link>
           <Link href="#" className="text-base font-medium transition group duration-300" prefetch={false}>
