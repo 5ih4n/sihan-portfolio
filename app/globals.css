@@ -83,8 +83,6 @@
   text-decoration: none;
   color: var(--imperial);
   position: relative;
-  background-color: #02182B;
-  color: var(--oofWhite);
   border-radius: 20px;
   padding: 10px 30px 10px 30px;
   display: inline-block;
@@ -156,4 +154,36 @@
   100% {
     background-position: 0% 50%;
   }
+}
+
+.contactLink {
+  margin: 10px;
+  font-size: 1.125rem;
+  text-decoration: none;
+  position: relative;
+  border-radius: 20px;
+  padding: 10px 30px 10px 30px;
+  display: inline-block;
+  border: 2px solid #FF3E41;
+  animation: smoothSlide 1s;
+  z-index: 1;
+  transition: 300ms;
+  overflow: hidden;
+}
+
+.contactLink:after{
+  content: "";
+  width: 250%;
+  height: 400%;
+  background: linear-gradient(to bottom right, #FF3E41 0%, #8F24A8 100%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transform: translate(-100%, -100%) rotate(30deg);
+  transition: 500ms;
+}
+
+.contactLink:hover:after{
+  transform: translate(-10%, 0%) rotate(30deg);
 }
