@@ -1,3 +1,4 @@
+import { transform } from "next/dist/build/swc"
 import type { Config } from "tailwindcss"
 
 const config = {
@@ -72,6 +73,10 @@ const config = {
           '50%': { backgroundPosition: '100% 50%' },
           '100%': { backgroundPosition: '0% 50%' },
         },
+        smoothSlide: {
+          '0%': { opacity: "0" },
+          '100%': { opacity: "1" },
+        }
       },
       backgroundSize: {
         '300%': '300%',
@@ -80,6 +85,7 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         gradient: 'animatedgradient 24s ease infinite alternate',
+        smoothSlide: 'smoothSlide 1s ease'
       },
     },
   },

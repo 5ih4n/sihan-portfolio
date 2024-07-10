@@ -8,6 +8,8 @@ export const Profession = () => {
       sequence={[
         'Systemutvecklare', // Types 'One'
         3000, 
+        'Student',
+        3000,
         'Webbutvecklare',
         3000, // Waits 2s
         'Programmerare', // Types 'Three' without deleting 'Two'
