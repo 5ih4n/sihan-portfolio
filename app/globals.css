@@ -158,9 +158,10 @@
 
 .contactLink {
   margin: 10px;
-  font-size: 1.125rem;
+  font-size: 1rem;
   text-decoration: none;
   position: relative;
+  background-color: hsla(0, 0%, 3%, 0.149);
   border-radius: 20px;
   padding: 10px 30px 10px 30px;
   display: inline-block;

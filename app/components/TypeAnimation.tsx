@@ -18,7 +18,7 @@ export const Profession = () => {
       wrapper="span"
       cursor={true}
       repeat={Infinity}
-      className='text-5xl mx-auto font-bold bg-gradient-to-r from-orange-700 via-purple-600 to-orange-700 text-transparent bg-clip-text animate-gradient text-center block'
+      className='mx-auto text-6xl font-bold bg-gradient-to-r from-orange-700 via-purple-600 to-orange-700 text-transparent bg-clip-text animate-gradient text-center block'
     />
   );
 };
