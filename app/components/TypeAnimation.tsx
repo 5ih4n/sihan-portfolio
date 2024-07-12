@@ -6,6 +6,7 @@ export const Profession = () => {
   return (
     <TypeAnimation
       sequence={[
+        1500,
         'Systemutvecklare', // Types 'One'
         3000, 
         'Student',
@@ -18,7 +19,7 @@ export const Profession = () => {
       wrapper="span"
       cursor={true}
       repeat={Infinity}
-      className='mx-auto text-6xl font-bold bg-gradient-to-r from-orange-700 via-purple-600 to-orange-700 text-transparent bg-clip-text animate-gradient text-center block'
+      className='mx-auto text-7xl font-bold bg-gradient-to-r from-orange-700 via-purple-600 to-orange-700 text-transparent bg-clip-text animate-gradient text-center block'
     />
   );
 };
