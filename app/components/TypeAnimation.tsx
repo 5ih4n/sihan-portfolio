@@ -6,14 +6,14 @@ export const Profession = () => {
   return (
     <TypeAnimation
       sequence={[
-        1500,
+        600,
         'Systemutvecklare', // Types 'One'
         3000, 
         'Student',
         3000,
         'Webbutvecklare',
         3000, // Waits 2s
-        'Programmerare', // Types 'Three' without deleting 'Two'
+        'Programmerare', 
         3000
       ]}
       wrapper="span"
