@@ -9,11 +9,11 @@ import { Reveal } from "./components/Reveal";
 
 export default function Home() {
   return (
-    <section className="max-w-screen-xl mx-auto h-screen">
-      <div className="h-max animate-smoothSlide relative px-52 my-32">
-        <div className="block w-full"><LandingLines2/></div>
+    <section className="max-w-screen-xl mx-auto">
+      <div className="noNavHeight animate-smoothSlide relative px-52 flex justify-center">
+        <div className="block w-full my-auto"><LandingLines2/></div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <h1 className="text-center text-3xl m-2 pt-12">Jag är Sihan Li</h1>
+          <h1 className="text-center text-3xl m-2">Jag är Sihan Li</h1>
           <div className="h-20"><Profession/></div>
           <div className="mx-auto w-fit m-2">
             <a href="/#" className="m-2 contactLink">Kontakta Mig</a>
@@ -21,10 +21,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="pt-64">
+      <div className="h-screen">
         <Reveal><h2 className="mx-auto w-fit text-3xl my-10">Senaste Projekt</h2></Reveal>
         <Reveal>
-          <Card className="max-w-screen-md mx-auto overflow-hidden">
+          <Card className="max-w-screen-md mx-auto overflow-hidden h-max">
             <CardHeader>
               <Reveal><CardTitle className="text-2xl">Evaporativ Kylning</CardTitle></Reveal>
               <Reveal><CardDescription>En jämförelse med konventionell luftkonditionering</CardDescription></Reveal>

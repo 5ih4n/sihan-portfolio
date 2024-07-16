@@ -81,7 +81,6 @@
   margin: 10px;
   font-size: 1.125rem;
   text-decoration: none;
-  color: var(--imperial);
   position: relative;
   border-radius: 20px;
   padding: 10px 30px 10px 30px;
@@ -161,7 +160,7 @@
   font-size: 1rem;
   text-decoration: none;
   position: relative;
-  background-color: hsla(0, 0%, 3%, 0.149);
+  background-color: hsla(0, 0%, 3%, 0.101);
   border-radius: 20px;
   padding: 10px 30px 10px 30px;
   display: inline-block;
@@ -200,4 +199,8 @@
     opacity: 100;
   }
 
+}
+
+.noNavHeight {
+  height: calc(100vh - 85px);
 }

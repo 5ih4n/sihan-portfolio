@@ -8,13 +8,13 @@ export const Profession = () => {
       sequence={[
         600,
         'Systemutvecklare', // Types 'One'
-        3000, 
+        3300, 
         'Student',
-        3000,
+        3300,
         'Webbutvecklare',
-        3000, // Waits 2s
+        3300, // Waits 2s
         'Programmerare', 
-        3000
+        3300
       ]}
       wrapper="span"
       cursor={true}
