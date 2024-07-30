@@ -1,7 +1,7 @@
 "use client"
 
 import { reverse } from "dns"
-import { delay, motion } from "framer-motion"
+import { motion } from "framer-motion"
 import * as React from "react"
 import { SVGProps } from "react"
 

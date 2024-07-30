@@ -10,9 +10,9 @@ import { ChevronDown, Download } from "lucide-react";
 
 export default function Home() {
   return (
-    <section className="max-w-screen-xl mx-auto">
-      <div className="noNavHeight animate-smoothSlide relative px-52 flex justify-center">
-        <div className="block w-full my-auto"><LandingLines2/></div>
+    <section className="max-w mx-auto z-[2] bg-background relative pageShadow">
+      <div className=" max-w-screen-2xl noNavHeight animate-smoothSlide relative px-52 flex justify-center mx-auto">
+        <div className="block w-full my-auto relative"><LandingLines2 className="z-[-2]"/></div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
           <h1 className="text-center text-3xl m-2">Jag är Sihan Li</h1>
           <div className="h-20"><Profession/></div>
@@ -25,7 +25,7 @@ export default function Home() {
           <ChevronDown size={40} />
         </div>
       </div>
-      <div className="">
+      <div className="z-10">
         <Reveal><h2 className="mx-auto w-fit text-3xl my-5">Senaste Projekt</h2></Reveal>
         <Reveal>
           <Card className="max-w-screen-md mx-auto overflow-hidden h-max my-10">

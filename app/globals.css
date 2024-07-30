@@ -18,7 +18,7 @@
     --primary: 222.2 47.4% 11.2%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 30, 27%, 87%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
@@ -35,6 +35,7 @@
     --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
+    --dot: 223, 84%, 5%, 0.2;
   }
 
   .dark {
@@ -44,13 +45,13 @@
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;
 
-    --popover: #FF3E41;
+    --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
     --primary: 210 40% 98%;
     --primary-foreground: 222.2 47.4% 11.2%;
 
-    --secondary: 217.2 32.6% 17.5%;
+    --secondary: 206, 52%, 5%;
     --secondary-foreground: 210 40% 98%;
 
     --muted: 217.2 32.6% 17.5%;
@@ -65,6 +66,8 @@
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
+
+    --dot: 0, 0%, 100%, 0.09;
   }
 }
 
@@ -203,4 +206,18 @@
 
 .noNavHeight {
   height: calc(100vh - 85px);
+}
+
+.dot-grid{
+  /* hsla(0, 0%, 100%, 0.03) */
+  background-image: radial-gradient(hsla(var(--dot)) 1px,transparent 0);
+  background-size: 30px 30px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(28 28 28/hsla(206, 92%, 5%));
+}
+
+.pageShadow{
+  box-shadow: 0px 35px 18px -15px hsla(0, 0%, 3%, 0.2);
+  -webkit-box-shadow: 0px 35px 18px -15px hsla(0, 0%, 3%, 0.2);
+  -moz-box-shadow: 0px 35px 18px -15px hsla(0, 0%, 3%, 0.2);
 }

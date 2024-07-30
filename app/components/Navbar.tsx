@@ -6,7 +6,7 @@ const oswald = Oswald({ subsets: ["latin"], variable: '--font-oswald' });
 
 export const Navbar = () => {
   return (
-    <header className="flex h-16 shrink-0 items-end px-4 md:px-6 max-w-screen-2xl mx-auto">
+    <header className="flex h-16 shrink-0 items-end px-4 md:px-6 max-w-screen-2xl mx-auto mb-2">
         <Link href="#" className="text-4xl oswald">
             Sihan Li
         </Link>
