@@ -4,7 +4,6 @@ import "./globals.css";
 import { LandingLines2 } from "./components/LandingLinesSvg2";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import { Fan } from "./components/FanSvg";
 import { Reveal } from "./components/Reveal";
 import { ChevronDown, Download, SquareArrowOutUpRight } from "lucide-react";
 import Link from "next/link";
@@ -128,8 +127,8 @@ export default function Home() {
                     <CarouselItem>
                       <h2>Studenter från LBS gymnasiet i Borås</h2>
                       <blockquote className="mt-6 border-l-2 pl-6 italic">
-                        "För en modig elevgrupp som med en grym teamkänsla presenterade en bra teknisk
-                         lösning på en hög professionell nivå"
+                        &quot;För en modig elevgrupp som med en grym teamkänsla presenterade en bra teknisk
+                         lösning på en hög professionell nivå&quot;
                       </blockquote>
                       <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
                         <li>Jessie Lindberg</li>
