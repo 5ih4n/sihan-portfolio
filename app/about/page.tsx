@@ -24,7 +24,6 @@ export default function About() {
             arduino kort och servomotorer, något jag nu på senare tid fått tillgång till genom CASE-labbet på Chalmers. 
             </p>
           </Reveal>
-          
 
           <br />
           <Reveal>
