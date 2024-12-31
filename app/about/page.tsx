@@ -36,7 +36,7 @@ export default function About() {
         </div>
         <Reveal>
           <Image
-          src="/soviet2.jpg"
+          src="/soviet.png"
           alt="förhoppningsvis en bild på mig"
           height={310}
           width={400}
