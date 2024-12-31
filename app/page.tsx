@@ -12,14 +12,14 @@ import Link from "next/link";
 export default function Home() {
   return (
     <section className="max-w mx-auto z-[2] bg-background relative pageShadow">
-      <div className=" max-w-screen-2xl noNavHeight animate-smoothSlide relative px-52 flex justify-center mx-auto">
+      <div className="max-w-screen-2xl noNavHeight animate-smoothSlide relative px-52 flex justify-center mx-auto">
         <div className="block w-full my-auto relative "><LandingLines2 className="z-[-2] lineColor opacity-60"/></div>
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
           <h1 className="text-center text-3xl m-2">Jag är Sihan Li</h1>
           <div className="h-20"><Profession/></div>
           <div className="mx-auto w-fit m-2">
-            <a href="/#" className="m-2 text-center contactLink w-40">Kontakta Mig</a>
-            <a href="/#" className="m-2 text-center contactLink w-40">Mina Arbeten</a>
+            <Link href="/" className="m-2 text-center contactLink w-40">Kontakta Mig</Link>
+            <Link href="projects" className="m-2 text-center contactLink w-40">Mina Arbeten</Link>
           </div>
         </div>
         <div className="animate-bounce mx-auto w-max absolute bottom-3">
@@ -29,7 +29,7 @@ export default function Home() {
       <div className="z-10">
         <Reveal><h2 className="mx-auto w-fit text-3xl my-5">Senaste Projekt</h2></Reveal>
         <Reveal>
-          <Card className="max-w-screen-md mx-auto overflow-hidden my-10">
+          <Card className="max-w-screen-md mx-auto my-10 h-full">
             <CardHeader>
               <Reveal><CardTitle className="text-2xl">Evaporativ Kylning</CardTitle></Reveal>
               <Reveal><CardDescription>En jämförelse med konventionell luftkonditionering</CardDescription></Reveal>
@@ -41,7 +41,8 @@ export default function Home() {
                     <Image
                         src="/evaporative2.jpg"
                         alt="Bild på dokumentet"
-                        fill={true}
+                        height={310}
+                        width={600}
                         priority
                         className="mx-auto"
                       />
@@ -51,7 +52,7 @@ export default function Home() {
                         src="/gymnasiearbeteTitel.png"
                         alt="Bild på dokumentet"
                         height={300}
-                        width={300}
+                        width={560}
                         className="mx-auto"
                       />
                     </CarouselItem>

@@ -130,7 +130,6 @@
 
 .navContact:hover{
   background-position: 0% 0%;
-  font-size: 1.525rem;
 }
 
 .navContact::after{

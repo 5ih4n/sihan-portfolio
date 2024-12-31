@@ -39,7 +39,7 @@ export const Footer = () => {
                     <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-current"></span></Link>
                     </li>
                     <div className="flex flex-row justify-between">
-                        <Link href="#" className="text-base font-medium transition group duration-300" prefetch={false}>
+                        <Link href="https://discord.com/users/822263875982196806" className="text-base font-medium transition group duration-300" prefetch={false}>
                             <Image
                                 src="/discord.webp"
                                 width={40}
