@@ -127,8 +127,8 @@ export default function Home() {
                     <CarouselItem>
                       <h2>Studenter från LBS gymnasiet i Borås</h2>
                       <blockquote className="mt-6 border-l-2 pl-6 italic">
-                        &quot;För en modig elevgrupp som med en grym teamkänsla presenterade en bra teknisk
-                         lösning på en hög professionell nivå&quot;
+                        För en modig elevgrupp som med en grym teamkänsla presenterade en bra teknisk
+                         lösning på en hög professionell nivå
                       </blockquote>
                       <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
                         <li>Jessie Lindberg</li>
@@ -144,7 +144,7 @@ export default function Home() {
               </Carousel>
             </CardContent>
             <CardFooter>
-              <Link href="#">Heet Gihtub</Link>
+              <Link href="https://github.com/JoarM/heet" target="_blank">Heet Gihtub</Link>
               <SquareArrowOutUpRight />
             </CardFooter>
           </Card>

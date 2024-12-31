@@ -30,7 +30,7 @@ export default function About() {
           <Reveal>
             <p>
             Även ifall jag studerar så är jag öppen till arbetsmöjligheter. Hör gärna av er till mig på sihanli2005@gmail.com eller några av  
-             <Link href="#" className=" underline-offset-4 navContact oswald animate-none" prefetch={false}> dessa</Link> andra alternativ. 
+            <Link href="#" className=" underline-offset-4 navContact oswald animate-none" prefetch={false}> dessa</Link> andra alternativ. 
             </p>
           </Reveal>
           
